@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+       
+       <title>WealthQuest - Parent</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">        
+         <style>
+            @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+        </style>
+        <style>
+        @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+       </style>
+        <link href="parent.css" rel="stylesheet"></link>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="parent.js"></script>
+    </head>
+    <body>
+        <div class = "container" id="main">
+             <nav class="navbar navbar-inverse navbar-fixed-top">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                  </button>
+                  <a class="navbar-brand" href="index.html">
+                      <img src="WQlogo.png" style="max-height:100%"/>
+                  </a>
+                  <a class="navbar-brand" href="#">Chore List</a>
+                  <a class="navbar-brand" href="#add">Add New Chore</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav navbar-right">
+                    
+                    <li><a href="index.html"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav> 
+            <div id="cont">
+                <h2 id="fun"><strong>Chore List</strong></h2>
+                <table class = "table">
+               
+                     <thead>
+                        <tr>
+                           <th class ="center inLabel">Chore</font></th>
+                           <th class ="center inLabel">Description</font></th>
+                           <th class ="center inLabel">Reward</font></th>
+                        </tr>
+                     </thead>
+                     
+                     <tbody id = "choresTableBody">
+                        
+                      
+                     </tbody>
+                 </table>
+                <hr></hr>
+                <a class="anchor" id="add"></a>
+                <h2 id="fun"><strong>Add New Chore</strong></h2>
+                <form>
+                    <div class="form-group">
+                         <label class="inLabel" for="choreNameInput">Name:</font></label>
+                         <input class ="form-control" type = "text" id="choreNameInput" placeholder ="name"></input>
+                    </div>
+                    <div class="form-group">
+                         <label class="inLabel" for="choreDescriptionInput">Description:</font></label>
+                         <input class ="form-control" type = "text" id="choreDescriptionInput" placeholder ="description"></input>
+                    </div>
+                    <div class="form-group">    
+                         <label  class="inLabel" for="choreValueInput">Reward:</font></label>
+                         <input class ="form-control" type = "text" id="choreValueInput" placeholder ="value"></input>
+                    </div>     
+                    <button id ="addChoreButton" class="btn btn-default"><font class="inLabel">Submit</font></button>
+                </form>
+                 <br/>
+               </div>
+            <br/>
+            <br/>
+         </div>
+         
+    </body>
+</html>

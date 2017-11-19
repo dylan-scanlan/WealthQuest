@@ -1,0 +1,59 @@
+body{
+    background-image:url("backgroundPic.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-color:black;
+    margin-left:20px;
+    margin-top:20px;
+    margin-right:20px;
+    margin-bottom:10px;
+    padding-top: 45px;
+}
+#cont{
+    background-color:#f2f2f2;
+    color:#4d4d4d;
+    margin:5px;
+    padding:5px;
+    padding-left:15px;
+    padding-right:15px;
+    border-radius:5px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size:14pt;
+}
+#fun{
+    font-family: 'Indie Flower', cursive;
+    color:blue;
+}
+#main{
+     background-color:rgba(0,0,0,0.7);
+     border-radius:5px;
+}
+
+#completeButton{
+    background-color:rgba(50,205,50,100);
+}
+
+footer{
+    color:black;
+}
+hr{
+   width: 99%; 
+   height: 1px; 
+   display: block; 
+   margin: 0 auto; 
+   border: none; 
+   box-shadow: 1px 1px 1px #660066; 
+   background-color: #660066;
+}
+#title{
+    font-family: 'Indie Flower', cursive;
+}
+.anchor {
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+}
+table{
+    max-width:90%;
+}

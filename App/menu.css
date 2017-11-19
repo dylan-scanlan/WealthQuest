@@ -1,0 +1,28 @@
+body{
+    background-image:url("backgroundPic.jpg");
+    background-size: cover;
+    background-color:black;
+    background-attachment: fixed;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:10px;
+    text-align:center;
+    color:white;
+}
+h4{
+    color:white;
+}
+#cont{
+    background-color:white;
+    font-family: 'Indie Flower', cursive;
+   
+}
+#main{
+     background-color:rgba(0,0,0,0.7);
+     border-radius:5px;
+     font-family: 'Indie Flower', cursive;
+}
+footer{
+    color:black;
+}
+

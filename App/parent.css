@@ -1,0 +1,57 @@
+body{
+    background-image:url("backgroundPic.jpg");
+    background-size: cover;
+    background-color:black;
+    background-attachment: fixed;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:10px;
+    padding-top: 45px;
+}
+h4{
+    color:white;
+}
+#cont{
+   background-color:#f2f2f2;
+    color:#4d4d4d;
+    margin:5px;
+    padding:5px;
+    padding-left:15px;
+    padding-right:15px;
+    border-radius:5px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size:14pt;
+}
+#main{
+     background-color:rgba(0,0,0,0.7);
+     border-radius:5px;
+}
+footer{
+    color:black;
+}
+.inLabel{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size:18pt;
+}
+table{
+    
+}
+#fun{
+    font-family: 'Indie Flower', cursive;
+    color:blue;
+}
+hr{
+   width: 99%; 
+   height: 1px; 
+   display: block; 
+   margin: 0 auto; 
+   border: none; 
+   box-shadow: 1px 1px 1px #660066; 
+   background-color: #660066;
+}
+.anchor {
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+}
